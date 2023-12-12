@@ -2,6 +2,8 @@
 	static String digitToWord(int dig) {
 		String a[] = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
 		String word = "";
+		
+		// using switch case statment
 		while (dig != 0) {
 			int rem = dig % 10;
 
@@ -56,8 +58,25 @@
 				break;
 			}
 			dig = dig / 10;
-			System.out.println("gui");
+		
 
+		}
+		
+		
+		// alternate way
+		int rem=0;
+		while(dig!=0) {
+			 rem = dig % 10;
+			word = a[rem] + word;
+			dig = dig/10;
+			
 		}
 		return word;
 	}
+	
+	
+	
+	
+	
+	
+	
