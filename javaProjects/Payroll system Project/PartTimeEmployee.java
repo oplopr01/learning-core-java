@@ -1,8 +1,11 @@
 package PayrollSystem;
 
+<<<<<<< HEAD
 
 
 //this class containing states and behaviours which will be present in part time employees
+=======
+>>>>>>> 095a1b316437ab5fffa62482213b0c038b00a17d
 public class PartTimeEmployee extends Employee{
 	
 	private int hoursWorked;

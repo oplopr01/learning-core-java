@@ -8,7 +8,11 @@ public class PayrollSystem {
 	private ArrayList<Employee> employeeList;
 	
 	public PayrollSystem () {
+<<<<<<< HEAD
 		// assigning emp details in  arrayList named employeeList variable
+=======
+		// assigning emp details in empList arrayList variable
+>>>>>>> 095a1b316437ab5fffa62482213b0c038b00a17d
 		employeeList = new ArrayList<>();
 	}
 	
