@@ -16,3 +16,19 @@ static void binaryToDecimal(int n){
     }
     System.out.println(sum);
 }
+
+
+//  for String input
+
+
+static void binaryToDecimal1(String n){
+    int sum =0;
+    int p=1;
+    for(int i = n.length()-1; i>=0;i++){
+        int digit = n.charAt(i)-48;
+        sum = sum+ digit*p;
+        p=p*2;
+    }
+    return sum;
+
+}
