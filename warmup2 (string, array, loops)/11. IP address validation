@@ -1,0 +1,15 @@
+
+// validate given ip address in string formate it defined perfectly or not
+
+ static String ipValidattion(String s) {
+		 String arr[] = s.split("[.]"); // split
+		 boolean flag =true;
+		 for(String ele: arr) {
+			 int n = Integer.parseInt(ele);
+			 if(!(n>=0 && n<=255)) {
+				 flag=false;
+			 }
+				
+		 }
+			return flag?"valid": "invalid"; 	
+	 }
